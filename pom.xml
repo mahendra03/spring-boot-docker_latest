@@ -41,6 +41,12 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
+			    <resources>
+        <resource>
+            <directory>src/main/resources</directory>
+            <filtering>true</filtering>
+        </resource>
+    </resources>
 	</build>
 	<repositories>
 		<repository>
@@ -78,11 +84,6 @@
 			</releases>
 		</pluginRepository>
 	</pluginRepositories>
-	    <resources>
-        <resource>
-            <directory>src/main/resources</directory>
-            <filtering>true</filtering>
-        </resource>
-    </resources>
+
 
 </project>
